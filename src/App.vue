@@ -2,9 +2,11 @@
   <main>
     <Configs></Configs>
     <Clouds></Clouds>
-    <button @click="toggleRain" class="btn btn-one btn-rain">Ativar/Desativar Chuva</button>
-    <button @click="toggleDayNight" class="btn btn-one btn-day">Ativar/Desativar Noite</button>
-    <button @click="started" id="toggleBtn" class="btn btn-one">Clique Aqui!</button>
+    <section>
+      <button @click="toggleRain" class="btn btn-one btn-rain show-in-desktop">Ativar/Desativar Chuva</button>
+      <button @click="toggleDayNight" class="btn btn-one btn-day show-in-desktop">Ativar/Desativar Noite</button>
+      <button @click="started" id="toggleBtn" class="btn btn-one">Clique Aqui!</button>
+    </section>
     <section id="container">
       <input type=" text" v-model="city" placeholder="Cidade: " />
       <button @click="getLocation">Buscar</button>
