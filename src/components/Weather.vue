@@ -40,7 +40,7 @@ export default {
             rainInterval: null,
             containerVisible: true,
             weatherApiKey: "KuIW9skcDHPpQ7nv",
-            logoImg: "/src/assets/logo-white.png"
+            logoImg: "assets/logo-white.png"
         };
     },
     methods: {
